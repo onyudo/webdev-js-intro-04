@@ -7,6 +7,8 @@ const response = document.getElementById("response");
 
 // create a mutable variable called age and do not assign it a value.
 
+let age;
+
 
 function checkAgeAndRespond() {
     age = parseInt(ageInputEl.value);
